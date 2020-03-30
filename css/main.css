@@ -101,14 +101,49 @@ textarea {
     height: 100%;
     width: 100%;
   }
+ 
+  h1 {
+    font-family: 'Ribeye Marrow', cursive;
+  }
+
+
+  h3 {
+    font-family: 'Acme', sans-serif;
+  }
   
+  p {
+    font-family: 'Marvel', sans-serif;
+}
+
   body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'BenchNine', sans-serif;
     font-weight: 700;
     padding: 2em;
-    color: #fff;
+    color: #600080;
     height: 100%;
   }
+
+  header,
+footer {
+  background-color: #222;
+  height: 80px;
+  width: 100%;
+}
+
+main {
+  background-color: #ccc;
+  height: 250px;
+  width: 100%;
+}
+
+header,
+footer,
+main {
+  /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center*/
+  display: flex;
+	justify-content: center;
+	align-items: center;
+}
   
   .wrapper {
     display: flex;
@@ -121,23 +156,47 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #b800e6;
     line-height: 1.5em;
     font-size: 1.25em;
     /* width: 30%; */
     height: auto;
     width: 30%;
+    outline-style: solid;
+    outline-width: medium;
+    outline-color: blue;
+    text-align: center;
+    page-break-inside: auto;
   }
   
   .wrapper span {
-    font-family: 'Lora', sans-serif;
+    font-family: 'BenchNine', sans-serif;
     font-size: 1.3em;
   }
   
  .wrapper span {
-     font-family: 'Lora' , sans-serif;
+    font-family: 'BenchNine', sans-serif;
      font-size: 1.3em;
  }
+
+ .flex-container {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  
+  }
+  
+  .flex-items {
+    /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center*/
+    color: #fff;
+    line-height: 1.5em;
+    font-size: 1.6em;
+    background-color: #f16059;
+    width: 30%;
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
 
 
 
